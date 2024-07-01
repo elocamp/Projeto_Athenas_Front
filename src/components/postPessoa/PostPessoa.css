@@ -1,0 +1,30 @@
+.center-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+form {
+    width: 100%;
+    max-width: 500px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form .MuiTextField-root {
+    margin-bottom: 16px;
+}
+
+.btn {
+    margin-top: 20px;
+}
+
+.MuiTypography-h4 {
+    margin-bottom: 20px;
+}

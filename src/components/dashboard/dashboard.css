@@ -1,0 +1,62 @@
+.container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-container {
+    margin-bottom: 20px;
+}
+
+.button-post {
+    background-color: #1976d2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button-post:hover {
+    background-color: #1565c0;
+}
+
+.title {
+    margin-bottom: 20px;
+    color: #1976d2;
+}
+
+.table-container {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.table-head {
+    background-color: #f5f5f5;
+    font-weight: bold;
+    color: #333;
+}
+
+.table-cell {
+    font-size: 14px;
+    color: #333;
+}
+
+.table-row:hover {
+    background-color: #f1f1f1;
+}
+
+.table-paper {
+    padding: 16px;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.custom-snackbar {
+    top: 70px !important; /* Ajuste a altura conforme necessário */
+    right: 20px !important; /* Ajuste a distância da borda direita conforme necessário */
+}
